@@ -1,0 +1,41 @@
+<div class="container p-3">
+  <div class="row pt-4">
+    <div class="col-10">
+      <h2 class="text-primary">Zombie Type</h2>
+    </div>
+    <div class="col-2 text-right">
+      <a class="btn btn-success">
+        Create New Type
+      </a>
+    </div>
+  </div>
+
+  <br /><br />
+  <table class="table table-bordered table-striped" style="width:100%">
+    <thead class="bg-dark text-white">
+      <tr>
+        <th>
+          Type Name
+        </th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td width="80%">TYPENAME</td>
+        <td class="text-center">
+          <div class="w-75 btn-group" role="group">
+            <a class="btn btn-warning mx-2">
+              Edit
+            </a>
+            <a class="btn btn-danger mx-2">
+              Delete
+            </a>
+          </div>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
