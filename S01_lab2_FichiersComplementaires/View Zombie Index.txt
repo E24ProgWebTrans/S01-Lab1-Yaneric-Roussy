@@ -1,0 +1,8 @@
+<div class="container p-3">
+<div class="row">
+    <div>
+      <h3>NAME</h3>
+      <h5>POINT</h5>
+    </div>
+</div>
+</div>
