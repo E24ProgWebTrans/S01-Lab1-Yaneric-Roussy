@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="S01_lab2_FichiersComplementaires\**" />
+    <Content Remove="S01_lab2_FichiersComplementaires\**" />
+    <EmbeddedResource Remove="S01_lab2_FichiersComplementaires\**" />
+    <None Remove="S01_lab2_FichiersComplementaires\**" />
+  </ItemGroup>
+
+</Project>
